@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+    <meta name="viewport" content="width=device-width, target-densitydpi=device-dpi" />
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script>
+        function showMsg(){
+            alert("hello world!");
+        }
+        function showMsgInAndroid(){
+            myjs.showMsg('hello in android!');
+        }
+    </script>
+</HEAD>
+<BODY>
+<span>测试js使用</span>
+<button id='btntest' onclick='showMsgInAndroid()'>调用android方法</button>
+</BODY>
+</HTML>
