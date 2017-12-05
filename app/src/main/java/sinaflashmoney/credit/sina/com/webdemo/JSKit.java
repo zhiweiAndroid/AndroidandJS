@@ -8,6 +8,8 @@ import android.widget.Toast;
  */
 
 public class JSKit {
+
+
     private MainActivity ma;
 
     public JSKit(MainActivity context) {
